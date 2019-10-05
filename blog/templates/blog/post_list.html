@@ -12,11 +12,16 @@
 
 <html>
 <body>
+
     <p>This one works too!</p>
     <em>But this is emphasised</em>
+
     <br><strong>Strongly emphasised</strong>
     <ul><li>First very important point</li><li>Second very important point</li></ul>
     <storng>You are now bascially a programmer!<strong>
+        <br>{% for post in posts %}
+        {{ post }}
+        {% endfor %}
 
 </body>
 </html>
